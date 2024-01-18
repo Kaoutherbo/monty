@@ -1,10 +1,10 @@
 # Stacks, Queues - LIFO, FIFO
 ## Tasks:
 ## Mendatory tasks:
-| Task                         | File                                        | Description                                       |
-| ---------------------------- | ------------------------------------------- | ------------------------------------------------- |
-| 0. 0. push, pall             | [opcode_functs1.c](./opcode_functs1.c)      |
-| 1. pint                      | [opcode_functs1.c](./opcode_functs1.c)      |
+| Task                         | File                                        | Description                                           |
+| ---------------------------- | ------------------------------------------- | -------------------------------------------------     |
+| 0. push, pall                | [opcode_functs1.c](./opcode_functs1.c)      | push an element to the stack and print all the values |
+| 1. pint                      | [opcode_functs1.c](./opcode_functs1.c)      | prints the value at the top of the stack              |
 | 2. pop                       | [opcode_functs1.c](./opcode_functs1.c)      |
 | 3. swap                      | [opcode_functs2.c](./opcode_functs2.c)      |
 | 4. add                       | [opcode_functs1.c](./opcode_functs1.c)      |
