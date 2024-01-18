@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 	while ((fgets(line, 1000, gvar.fd)) != NULL)
 	{
 		gvar.ln++;
-		gvar.argv = get_line_commands(line);
+		gvar.argv = get_line_cmds(line);
 		if (!gvar.argv)
 			continue;
 		f = select_opcode(gvar.argv[0]);
@@ -41,11 +41,11 @@ int main(int argc, char *argv[])
 			fprintf(stderr, "L%d: unknown instruction %s\n", gvar.ln, gvar.argv[0]);
 			fclose(gvar.fd);
 			free_dlistint(gvar.top);
-			free_full_command(gvar.argv);
+			free_command(gvar.argv);
 			exit(EXIT_FAILURE);
 		}
 		f(&gvar.top, gvar.ln);
-		free_full_command(gvar.argv);
+		free_command(gvar.argv);
 	}
 	fclose(gvar.fd);
 	free_dlistint(gvar.top);

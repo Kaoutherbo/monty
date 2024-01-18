@@ -9,12 +9,13 @@
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
+ * 
+ * Description: doubly linked list node structure
+ * for stack, queues, LIFO, FIFO
+ *
  * @n: integer
  * @prev: points to the previous element of the stack (or queue)
  * @next: points to the next element of the stack (or queue)
- *
- * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO
  */
 typedef struct stack_s
 {
@@ -25,11 +26,12 @@ typedef struct stack_s
 
 /**
  * struct instruction_s - opcode and its function
- * @opcode: the opcode
- * @f: function to handle the opcode
- *
+ * 
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO
+ *
+ * @opcode: the opcode
+ * @f: function to handle the opcode
  */
 typedef struct instruction_s
 {
@@ -47,27 +49,33 @@ typedef struct global_s
 
 extern global_t gvar;
 
-char *_stringdup(const char *input);
-char **get_line_commands(const char *line);
-void free_full_command(char **full_command);
+/* get the commands functions */
+char *_strdup(const char *input);
+char **get_line_cmds(const char *line);
+void free_command(char **full_command);
 int count_commands(const char *command);
-void (*select_opcode(char *code))(stack_t **stack, unsigned int line_number);
-void push(stack_t **stack, unsigned int line_number);
-void pall(stack_t **stack, unsigned int line_number);
-void pint(stack_t **stack, unsigned int line_number);
-void pop(stack_t **stack, unsigned int line_number);
-void swap(stack_t **stack, unsigned int line_number);
-void add(stack_t **stack, unsigned int line_number);
-void nop(stack_t **stack, unsigned int line_number);
-void sub(stack_t **stack, unsigned int line_number);
-void divide(stack_t **stack, unsigned int line_number);
-void mul(stack_t **stack, unsigned int line_number);
-void mod(stack_t **stack, unsigned int line_number);
-void pchar(stack_t **stack, unsigned int line_number);
-void pstr(stack_t **stack, unsigned int line_number);
-void rotl(stack_t **stack, unsigned int line_number);
-void rotr(stack_t **stack, unsigned int line_number);
 
+/* select the opcode */
+void (*select_opcode(char *code))(stack_t **stack, unsigned int line_number);
+
+/* opcodes functions */
+void _push(stack_t **stack, unsigned int line_number);
+void _pall(stack_t **stack, unsigned int line_number);
+void _pint(stack_t **stack, unsigned int line_number);
+void _pop(stack_t **stack, unsigned int line_number);
+void _swap(stack_t **stack, unsigned int line_number);
+void _add(stack_t **stack, unsigned int line_number);
+void _nop(stack_t **stack, unsigned int line_number);
+void _sub(stack_t **stack, unsigned int line_number);
+void _divide(stack_t **stack, unsigned int line_number);
+void _mul(stack_t **stack, unsigned int line_number);
+void _mod(stack_t **stack, unsigned int line_number);
+void _pchar(stack_t **stack, unsigned int line_number);
+void _pstr(stack_t **stack, unsigned int line_number);
+void _rotl(stack_t **stack, unsigned int line_number);
+void _rotr(stack_t **stack, unsigned int line_number);
+
+/* dll functions */
 stack_t *add_dnodeint(stack_t **head, const int n);
 void free_dlistint(stack_t *head);
 
