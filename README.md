@@ -1,10 +1,17 @@
 # Stacks, Queues - LIFO, FIFO:
+
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/Insertion-in-Stack.jpg" alt = "stuck"/>
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/Inserting-an-element-into-the-queue.jpg" alt = "queue" />
 
-#  The Monty language
+#  The Monty language: 
 Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
 
+# Usage:
+To use the Monty Byte Code Interpreter, follow these instructions:
+```
+$ monty file
+Where file is the path to the file containing Monty byte code.
+```
 ## Tasks:
 ## Mendatory tasks:
 | Task                         | File                                        | Description                                           |
