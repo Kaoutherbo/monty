@@ -2,13 +2,13 @@
 ## Tasks:
 ## Mendatory tasks:
 | Task                         | File                                        | Description                                           |
-| ---------------------------- | ------------------------------------------- | -------------------------------------------------     |
+| ---------------------------- | ------------------------------------------- | ----------------------------------------------------- |
 | 0. push, pall                | [opcode_functs1.c](./opcode_functs1.c)      | push an element to the stack and print all the values |
 | 1. pint                      | [opcode_functs1.c](./opcode_functs1.c)      | prints the value at the top of the stack              |
-| 2. pop                       | [opcode_functs1.c](./opcode_functs1.c)      |
-| 3. swap                      | [opcode_functs2.c](./opcode_functs2.c)      |
-| 4. add                       | [opcode_functs1.c](./opcode_functs1.c)      |
-| 5. nop                       | [operations_functs.c](./operations_functs.c)|
+| 2. pop                       | [opcode_functs1.c](./opcode_functs1.c)      | removes the top element of the stack                  |
+| 3. swap                      | [opcode_functs2.c](./opcode_functs2.c)      | swaps the top two elements of the stack               |
+| 4. add                       | [opcode_functs1.c](./opcode_functs1.c)      | adds the top two elements of the stack                |
+| 5. nop                       | [operations_functs.c](./operations_functs.c)| doesn't do anything                                   |
 
 ## Advenced tasks:
 | Task                         | File                                               |
