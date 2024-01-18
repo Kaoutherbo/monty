@@ -1,4 +1,8 @@
-# Stacks, Queues - LIFO, FIFO
+# Stacks, Queues - LIFO, FIFO:
+
+# The Monty language
+Monty 0.98 is a scripting language that is first compiled into Monty byte codes (Just like Python). It relies on a unique stack, with specific instructions to manipulate it. The goal of this project is to create an interpreter for Monty ByteCodes files.
+
 ## Tasks:
 ## Mendatory tasks:
 | Task                         | File                                        | Description                                           |
@@ -23,3 +27,9 @@
 | 13. rotl                     | [rotations_functs.c](./rotations_functs.c)         | rotates the stack to the top                                   |
 | 14. rotr                     | [rotations_functs.c](./rotations_functs.c)         | rotates the stack to the bottom                                |
 
+
+# Compilation & Output
+The code will be compiled this command:
+```
+$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+```
