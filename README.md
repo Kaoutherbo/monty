@@ -7,21 +7,18 @@
 | 1. pint                      | [opcode_functs1.c](./opcode_functs1.c)      | prints the value at the top of the stack              |
 | 2. pop                       | [opcode_functs1.c](./opcode_functs1.c)      | removes the top element of the stack                  |
 | 3. swap                      | [opcode_functs2.c](./opcode_functs2.c)      | swaps the top two elements of the stack               |
-| 4. add                       | [opcode_functs1.c](./opcode_functs1.c)      | adds the top two elements of the stack                |
-| 5. nop                       | [operations_functs.c](./operations_functs.c)| doesn't do anything                                   |
+| 4. add                       | [operations_functs.c](./operations_functs.c)| adds the top two elements of the stack                |
+| 5. nop                       | [opcode_functs2.c](./opcode_functs2.c)      | doesn't do anything                                   |
 
 ## Advenced tasks:
-| Task                         | File                                               |
-| ---------------------------- | -------------------------------------------------- |
-| 0. We are all unique!        | [0-uniq_users.sql](./0-uniq_users.sql)             |
-| 1. In and not out            | [1-country_users.sql](./1-country_users.sql)       |
-| 2. Best band ever!           | [2-fans.sql](./2-fans.sql)                         |
-| 3. Old school band           | [3-glam_rock.sql](./3-glam_rock.sql)               |
-| 4. Buy buy buy               | [4-store.sql](./4-store.sql)                       |
-| 5. Email validation to sent  | [5-valid_email.sql](./5-valid_email.sql)           |
-| 6. Add bonus                 | [6-bonus.sql](./6-bonus.sql)                       |
-| 7. Average score             | [7-average_score.sql](./7-average_score.sql)       |
-| 8. Optimize simple search    | [8-index_my_names.sql](./8-index_my_names.sql)     |
-| 9. Optimize search and score | [9-index_name_score.sql](./9-index_name_score.sql) |
-| 10. Safe divide              | [10-div.sql](./10-div.sql)                         |
-| 11. No table for a meeting   | [11-need_meeting.sql](./11-need_meeting.sql)       |
+| Task                         | File                                               | Description                                                 |
+| ---------------------------- | -------------------------------------------------- | ----------------------------------------------------- |
+| 6. sub                       | [operations_functs.c](./operations_functs.c)       |
+| 7. div                       | [operations_functs.c](./operations_functs.c)       |
+| 8. mul                       | [operations_functs.c](./operations_functs.c)       |
+| 9. mod                       | [operations_functs.c](./operations_functs.c)       |
+| 10. comments                 | [get_function.c](./get_function.c)                 | treat the line startes with # as a comment (don’t do anything).|
+| 11. pchar                    | [print_functs.c](./print_functs.c)                 |
+| 12. pstr                     | [print_functs.c](./print_functs.c)                 |
+| 13. rotl                     | [rotations_functs.c](./rotations_functs.c)         |
+| 14. rotr                     | [rotations_functs.c](./rotations_functs.c)         |
