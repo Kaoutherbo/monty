@@ -35,7 +35,11 @@ Where file is the path to the file containing Monty byte code.
 | 12. pstr                     | [print_functs.c](./print_functs.c)                 | prints the string starting at the top of the stack             |
 | 13. rotl                     | [rotations_functs.c](./rotations_functs.c)         | rotates the stack to the top                                   |
 | 14. rotr                     | [rotations_functs.c](./rotations_functs.c)         | rotates the stack to the bottom                                |
-
+| 15. stack, queue             | [monty.c](./monty.c)                               | Implement the stack and queue opcodes.                         |
+| 16. Brainf*ck                | [bf/1000-school.bf](./bf/1000-school.bf)           |  prints School, followed by a new line.                        |
+| 17. Add two digits           | [bf/1001-add.bf](./bf/1001-add.bf)                 | Add two digits given by the user.                              |
+| 18. Multiplication           | [bf/1002-mul.bf](./bf/1002-mul.bf)                 | Multiply two digits given by the user.                         |
+| 19. Multiplication level up  | [bf/1003-mul.bf](./bf/10023-mul.bf)                | Multiply two digits given by the user.                         |
 
 # Compilation & Output
 The code will be compiled this command:
