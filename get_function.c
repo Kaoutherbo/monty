@@ -59,7 +59,7 @@ char **get_line_cmds(const char *line)
 			fprintf(stderr, "Error: malloc failed\n");
 			free(line_cpy);
 			free_command(full_cmd);
-			free(command);
+			free(cmd);
 			exit(EXIT_FAILURE);
 		}
 		strcpy(full_cmd[i], cmd);

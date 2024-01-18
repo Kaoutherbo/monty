@@ -1,6 +1,6 @@
 #include "monty.h"
 
-global_t gvar;
+
 /**
  * main - monty interpreter
  *
