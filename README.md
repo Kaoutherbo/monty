@@ -1,4 +1,9 @@
 # Stacks, Queues - LIFO, FIFO:
+## Stuck
+In software development, `stuck` refers to issues or tasks that are currently blocked or facing obstacles. 
+
+## Queue
+The `queue` section outlines the tasks that are lined up for future development. 
 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/Insertion-in-Stack.jpg" alt = "stuck"/>
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/Inserting-an-element-into-the-queue.jpg" alt = "queue" />
